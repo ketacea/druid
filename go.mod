@@ -1,4 +1,4 @@
-module github.com/proullon/druid
+module github.com/ketacea/druid
 
 go 1.18
 

@@ -8,7 +8,7 @@ import (
 	"database/sql"
 	"time"
 
-	_ "github.com/proullon/druid/driver"
+	_ "github.com/ketacea/druid/driver"
 )
 	
 func main() {

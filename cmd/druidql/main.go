@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/proullon/druid/cli"
-	_ "github.com/proullon/druid/driver"
+	"github.com/ketacea/druid/cli"
 )
 
 func main() {

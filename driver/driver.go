@@ -31,6 +31,6 @@ func (d *Driver) Open(dsn string) (conn driver.Conn, err error) {
 
 	dsn = strings.TrimSuffix(dsn, "/")
 
-	c := NewConn(dsn+"/druid/v2/sql", "proullon/druid/1.0")
+	c := NewConn(dsn+"/druid/v2/sql", "ketacea/druid/1.0")
 	return c, nil
 }
